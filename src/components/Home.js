@@ -6,7 +6,8 @@ function Home() {
       <img
         className="page-image bg"
         src="https://wallpapercave.com/wp/9Wxb10G.jpg"
-        alt="bg"></img>
+        alt="bg"
+        ></img>
       <div className="content">
         <div className="text">Get all the latests fashion trends here!</div>
         <Link className="button" to="/products">

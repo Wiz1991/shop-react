@@ -6,7 +6,6 @@ import Products from './components/Products';
 import Cart from './components/Cart';
 import data from './components/productData.js';
 import { useState } from 'react';
-import Product from './components/Product';
 
 function App() {
   const [cart, setCartItems] = useState([]);
@@ -51,7 +50,7 @@ function App() {
     <Router>
       <Nav cartSize={cart.length} />
       <Switch>
-        <Route path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/products">
           <Products products={products} onClick={handleClick} />
         </Route>

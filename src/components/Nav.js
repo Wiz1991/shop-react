@@ -11,7 +11,7 @@ function Nav({ cartSize }) {
       </h1>
       <ul className="main-nav">
         <li>
-          <Link className="link" to="/home">
+          <Link className="link" to="/">
             Home
           </Link>
         </li>

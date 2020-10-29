@@ -17,9 +17,10 @@ img.bg {
   object-fit: fill;
 }
 .container {
-  margin-top: 2rem;
+  margin-top: 3rem !important;  
   position: relative;
   width: 100%; /* for IE 6 */
+  overflow:  visible !important;
 }
 
 .content {
