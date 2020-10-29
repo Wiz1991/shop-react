@@ -5,13 +5,13 @@ function Nav({ cartSize }) {
   return (
     <header className="header">
       <h1 className="logo">
-        <Link className="link" to="/">
+        <Link className="link" to="/shop-react">
           Shopify
         </Link>
       </h1>
       <ul className="main-nav">
         <li>
-          <Link className="link" to="/">
+          <Link className="link" to="/shop-react">
             Home
           </Link>
         </li>

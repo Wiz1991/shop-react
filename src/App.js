@@ -50,7 +50,7 @@ function App() {
     <Router>
       <Nav cartSize={cart.length} />
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/shop-react" component={Home} />
         <Route exact path="/products">
           <Products products={products} onClick={handleClick} />
         </Route>
